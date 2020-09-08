@@ -1,0 +1,14 @@
+#include <cs50.h>
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+   
+    string name = get_string("What is your name?\n");
+    printf("hello,  %s\n", name );
+    string surname = get_string("What is your surname?\n");
+    printf("Well, %s\n" , surname);
+    printf("Nice to meet you,%s %s\n", name ,surname );
+}
+ 
